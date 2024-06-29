@@ -11,8 +11,12 @@ export default {
         'by-black' : '#0a1018'
       },
       backgroundColor: {
-        'by-black' : '#0a1018'
+        'by-black' : '#0a1018',
+        'sidenavcolor' : '#161c23',
       },
+      spacing: {
+        '128': '32rem',
+      }
     },
   },
   plugins: [],
