@@ -1,11 +1,9 @@
 import React, { useState, createContext, useCallback } from 'react';
 
-
 export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
   const [refreshFlag, setRefreshFlag] = useState(false);
-
 
   const triggerRefresh = useCallback(() => {
     setRefreshFlag((prev) => !prev);

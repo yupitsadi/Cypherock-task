@@ -15,7 +15,7 @@ export default {
         'by-black' : '#0a1018',
         'sidenavcolor' : '#161c23',
         'support' : '#4b3c2b',
-        'color1' : '161c23',
+        'color1' : '#161c23',
         'color2' : '#161c23',
         'color3' : '#171c23',
       },

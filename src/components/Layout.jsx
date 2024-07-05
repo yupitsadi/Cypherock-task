@@ -5,7 +5,9 @@ import SideNavbar from './SideNavbar';
 
 const Layout = () => {
   return (
+    
     <div className="bg-by-black text-white min-h-screen flex flex-col">
+      
       <Navbar />
       <div className="flex flex-1">
         <SideNavbar />
@@ -13,6 +15,7 @@ const Layout = () => {
           <Outlet />
         </div>
       </div>
+      
     </div>
   );
 };
